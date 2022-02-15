@@ -1,0 +1,222 @@
+body {
+    background-color: #E8E8E8;
+    margin: 0;
+    font-family: arial;
+  }
+div {
+    margin: 0;
+}
+h1 {
+  display: inline-block;
+  text-align: center;
+}
+h3 {
+  //display: inline-block;
+}
+
+  /* HEADER SECTION */
+  /* Holds all features in the header section */
+.top {
+    background-color: black;
+    margin: 0;
+    height: 35px;
+    padding-top: 8px;
+    box-shadow: 1px 1px 1px #000;
+  }
+.top-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+.logo {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    width: 21%;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    //position: relative;
+}
+.chitchat:link, .chitchat:active, .chitchat:visited  {
+  color: white;
+  text-decoration: none;
+}
+.search {
+    background-color: black;
+    color: white;
+    width: 60%;
+    display: inline-block;
+    margin: 0;
+}
+.input {
+    width: 60%;
+    align-items: left;
+    margin-left: 70px;
+}
+.searchbutton {
+    border: 2;
+    line-height: 1;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    //text-shadow: 1px 1px 1px #000;
+    border-radius: 1px;
+    border-color: white;
+    border-width: 1px;
+    background-color: black;
+}
+.settings {
+    background-color: black;
+    color: white;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    //padding-left: 9px;
+}
+
+.coin-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 8px;
+  background: #000000;
+  padding: 5px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  width: 50px;
+  margin-left: 30px;
+}
+
+.coin-btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: black;
+}
+  
+  /* BODY FEATURES AND INFORMATION */
+  
+.middle {
+    margin: 0;
+    text-align: center;
+}
+.mid-container {
+    margin: 5px auto 0 auto;
+    width: 50%;
+    display: inline-flex;
+}
+
+  /* NAVIGATION FEATURES */
+.navigation {
+    background-color: white;
+    width: 21%;
+    height: 500px;
+    display: inline-block;  
+    padding: 10px 0;
+    text-align: left;
+    box-shadow: 1px 1px 1px #000;
+}
+.icon, .starsIcon, .loveIcon {
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
+.localIcon {
+    width: 20px;
+    height: 25px;
+    padding-left: 10px;
+}
+.navLine {
+    border: none;
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin: 20px auto;
+}
+table {
+  margin: 0 auto;
+}
+
+/* navigation link settings */
+.navLink:active, .navLink:visited, .navLink:link {
+  color: black;
+  text-decoration: none;
+}
+.navLink:hover {
+    color: blue;
+}
+
+/* SERVICES AREA FEATURES AND ATTRIBUTES */
+.services {
+    background-color: white;
+    width: 75%;
+    height: 800px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 1px #000;
+    margin-left: 5px;
+}
+.starTitle, .loveTitle {
+    height: 28px;
+    width: 28px;
+}
+.localTitle {
+    height: 28px;
+    width: 23px;
+  }
+.info {
+    text-align:center;
+    color: #DBDBDB;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-top: 160px;
+}
+  
+//.sliderRow {
+//    text-align: center;
+//    width: 100%;
+}
+.slidecontainer {
+  width: 40%; /* Width of the outside container */
+  display: inline-block;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #000000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #000000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}

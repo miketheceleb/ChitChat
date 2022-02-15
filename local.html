@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <title>ChitChat</title>
+    <link rel="stylesheet" type="text/css" media="screen">
+    <link rel="icon" href="icons/favicon.ico">
+</head>
+<body>
+    <div class="top">      
+        <div class="top-container">
+            <div class="logo"><a class="chitchat" href="index.html">ChitChat</a></div>
+            <div class="search"><input class="input" type="text" id="name" name="name" placeholder="Search @people..." required
+            minlength="4" maxlength="50" size="10"><input class="searchButton" type="button" value="Search" ></div>
+            <div class="settings"><div class="coin-btn">Coins: 1,200</div></div>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="mid-container">
+            <div class="navigation">
+            <table>
+                <tr><td><div class="link"><a href="stars.html" class="navLink" target="_parent"><img class="starsIcon" src="icons/star.png"></a></td><td><a href="stars.html" class="navLink" target="_parent">Stars</a></td></div></tr>
+                <tr><td><div class="link"><a href="love.html" class="navLink" target="_parent"><img class="loveIcon" src="icons/heart.png"></a></td><td><a href="love.html" class="navLink" target="_parent">Love</a></td></div></tr>
+                <tr><td><div class="link"><a href="local.html" class="navLink" target="_parent"><img class="localIcon" src="icons/location.png"></a></td><td><a href="local.html" class="navLink" target="_parent">Local</a></td></div></tr>
+            </table>    
+                <hr class="navLine">
+            <table>
+                <tr><td><a href="icons/profile.html" target="_parent"></a><div class="link"><img class="icon" src="icons/profile.png" onmouseover="this.src='icons/profileHover.png';" onmouseout="this.src='icons/profile.png';" /></td><td>Profile</td></div></a></tr>
+                <tr><td><a href="icons/inbox.html" target="_parent"></a><div class="link"><img class="icon" src="icons/inbox.png" onmouseover="this.src='icons/inboxHover.png';" onmouseout="this.src='icons/inbox.png';" /></td><td>Inbox</td></div></a></tr>
+                <tr><td><a href="icons/friends.html" target="_parent"></a><div class="link"><img class="icon" src="icons/friends.png" onmouseover="this.src='icons/friendsHover.png';" onmouseout="this.src='icons/friends.png';" /></td><td>Friends</td></div></a></tr>
+                <tr><td><a href="icons/alerts.html" target="_parent"></a><div class="link"><img class="icon" src="icons/alerts.png" onmouseover="this.src='icons/AlertsHover.png';" onmouseout="this.src='icons/alerts.png';" /></td><td>Alerts</td></div></a></tr>
+                <tr><td><a href="icons/reviews.html" target="_parent"></a><div class="link"><img class="icon" src="icons/stars.png" onmouseover="this.src='icons/starsHover.png';" onmouseout="this.src='icons/stars.png';" /></td><td>Reviews</td></div></a></tr>
+            </table>
+            <div class="info">
+                <p>About * Terms * Privacy * Contact * Investors</p>
+            </div>
+            </div>
+            <div class="services">
+                <h1>Local</h1><img class="localTitle" src="icons/location.png">
+                <h3>Distance</h3>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
